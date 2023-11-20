@@ -1,0 +1,19 @@
+
+# Environments
+*.env
+.env.prod
+venv/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+setup.cfg
+
+**/__pycache__/
+**/__pycache__/*
+**/.DS_Store
+*.DS_Store
+
+# C extensions
+*.so

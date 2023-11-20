@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "django-k8s"
+version = "0.1.0"
+description = ""
+authors = ["George Anton <george.anton000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gunicorn = "^21.2.0"
+requests = "^2.31.0"
+django-dotenv = "^1.4.2"
+psycopg2-binary = "^2.9.9"
+django-storages = "^1.14.2"
+boto3 = "^1.29.3"
+django = "^4.2.7"
+opentelemetry-api = "^1.21.0"
+opentelemetry-sdk = "^1.21.0"
+opentelemetry-instrumentation-django = "^0.42b0"
+opentelemetry-exporter-prometheus = "^1.12.0rc1"
+mypy = "^1.7.0"
+django-cors-headers = "^4.3.1"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

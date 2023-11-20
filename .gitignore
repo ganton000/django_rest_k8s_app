@@ -1,0 +1,36 @@
+
+# Environments
+*.env
+venv/
+**/.kube/
+**/.kube/**
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+**/__pycache__/
+**/__pycache__/*
+**/.DS_Store
+*.DS_Store
+**/*.env
+.env.prod
+
+# VS code config
+.vscode/
+.vscode/*
+
+# C extensions
+*.so
+
+# Terraform
+terraform/
+**/.terraform/
+**/.terraform/*
+
+# Misc
+py_client/
+py_client/*
+k8s/
+k8s/*
